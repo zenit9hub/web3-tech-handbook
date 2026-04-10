@@ -1,0 +1,16 @@
+{
+  "name": "web3-tech-handbook",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Web3 Tech Handbook - 구조, 실행, 응용, 그리고 세미나 준비",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "mermaid": "11.14.0",
+    "vitepress": "1.6.4",
+    "vitepress-plugin-mermaid": "2.0.17"
+  }
+}
