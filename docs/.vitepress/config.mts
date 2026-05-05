@@ -1,12 +1,41 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
+function normalizeBase(value: string): string {
+  const trimmed = value.trim()
+
+  if (trimmed === '' || trimmed === '/') {
+    return '/'
+  }
+
+  const withLeadingSlash = trimmed.startsWith('/') ? trimmed : `/${trimmed}`
+
+  return withLeadingSlash.endsWith('/') ? withLeadingSlash : `${withLeadingSlash}/`
+}
+
+function resolveBase(): string {
+  if (process.env.VITEPRESS_BASE) {
+    return normalizeBase(process.env.VITEPRESS_BASE)
+  }
+
+  if (
+    process.env.GITHUB_ACTIONS === 'true' &&
+    process.env.GITHUB_REPOSITORY === 'zenit9hub/web3-tech-handbook'
+  ) {
+    return '/web3-tech-handbook/'
+  }
+
+  return '/'
+}
+
+const siteBase = resolveBase()
+
 export default withMermaid(
   defineConfig({
     title: 'Web3 Tech Handbook',
     description: '기초, 설계 패턴, 운영, 실험, 세미나 준비를 위한 Web3 학습 문서',
     lang: 'ko-KR',
-    base: '/web3-tech-handbook/',
+    base: siteBase,
     head: [['meta', { name: 'theme-color', content: '#0f766e' }]],
     cleanUrls: true,
     sitemap: {
