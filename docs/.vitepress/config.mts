@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
+const siteUrl = 'https://web3.lab.rezen.dev/'
+
 function normalizeBase(value: string): string {
   const trimmed = value.trim()
 
@@ -30,6 +32,18 @@ function resolveBase(): string {
 
 const siteBase = resolveBase()
 
+function resolveCanonicalPath(relativePath: string): string {
+  if (relativePath === 'index.md') {
+    return '/'
+  }
+
+  if (relativePath.endsWith('/index.md')) {
+    return `/${relativePath.replace(/\/index\.md$/, '/')}`
+  }
+
+  return `/${relativePath.replace(/\.md$/, '')}`
+}
+
 export default withMermaid(
   defineConfig({
     title: 'Web3 Tech Handbook',
@@ -39,10 +53,23 @@ export default withMermaid(
     head: [['meta', { name: 'theme-color', content: '#0f766e' }]],
     cleanUrls: true,
     sitemap: {
-      hostname: 'https://zenit9hub.github.io/web3-tech-handbook/'
+      hostname: siteUrl
+    },
+    transformHead({ pageData }) {
+      if (pageData.isNotFound) {
+        return
+      }
+
+      const canonicalUrl = new URL(resolveCanonicalPath(pageData.relativePath), siteUrl).toString()
+
+      return [
+        ['link', { rel: 'canonical', href: canonicalUrl }],
+        ['meta', { property: 'og:url', content: canonicalUrl }]
+      ]
     },
     themeConfig: {
       logo: '/logo.svg',
+      logoLink: siteUrl,
       nav: [
         { text: '홈', link: '/' },
         { text: '기초와 입문', link: '/foundations/' },
