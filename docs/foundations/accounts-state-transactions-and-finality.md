@@ -1,6 +1,6 @@
 ---
 title: "계정, 상태, 트랜잭션, 확정성"
-description: "계정과 상태 전이, 트랜잭션 흐름, 확정성을 세미나 1단계 기준으로 정리한다."
+description: "검증 가능한 신뢰 인프라가 실제로 어떻게 상태 전이와 운영 기준으로 구현되는지 설명한다."
 level: foundation
 category: foundations
 status: stable
@@ -15,7 +15,7 @@ tags:
 
 ## 문서 목적
 
-Web3 기본기 세미나에서 다루는 핵심 개념인 계정, 상태, 트랜잭션, 확정성을 한 문서에서 연결해 설명한다.
+앞선 개요 문서들이 Web3를 `검증 가능한 신뢰 인프라`로 재정의했다면, 이 문서는 그 추상적 설명을 시스템 메커니즘 수준으로 내린다. 계정, 상태, 트랜잭션, 확정성을 한 문서에서 연결해, Web3의 신뢰가 실제로 어떻게 구현되는지 설명한다.
 
 ## 핵심 요약
 
@@ -23,6 +23,7 @@ Web3 기본기 세미나에서 다루는 핵심 개념인 계정, 상태, 트랜
 - 상태는 시스템이 현재 무엇을 사실로 보는지의 표현이다.
 - 트랜잭션은 상태 변경 요청이며, 서명과 검증 절차를 거쳐 반영된다.
 - 확정성은 결과를 언제부터 운영상 신뢰 가능한 상태로 볼지 정하는 기준이다.
+- 따라서 이 네 요소는 단순한 블록체인 용어가 아니라, 검증 가능한 신뢰를 구현하는 기본 단위다.
 
 ## 상태 전이 관점에서 본 구조
 
@@ -87,12 +88,13 @@ flowchart LR
 
 ## 선행 개념
 
-- [Web3 개요와 철학](/foundations/web3-overview)
+- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
+- [신뢰 인프라의 진화: Bitcoin에서 RWA까지](/foundations/trust-infrastructure-evolution)
 
 ## 다음으로 읽을 문서
 
-- [스마트컨트랙트와 정책 모델](/foundations/smart-contracts-as-policy)
-- [온체인 vs 오프체인 설계 패턴](/foundations/onchain-offchain-design-patterns)
+- [스마트컨트랙트는 정책 집행 계층이다](/foundations/smart-contracts-as-policy)
+- [온체인, 오프체인, 앵커링, 하이브리드](/foundations/onchain-offchain-design-patterns)
 
 ## 관련 문서
 

@@ -25,12 +25,12 @@ tags:
 
 ## 권장 발표 흐름
 
-1. [Web3 개요와 철학](/foundations/web3-overview)
-2. [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
-3. [온체인 vs 오프체인 설계 패턴](/foundations/onchain-offchain-design-patterns)
-4. [하이브리드 아키텍처](/patterns/hybrid-architecture)
-5. [DID, VC, 정책 자동화](/patterns/did-vc-and-policy)
-6. [스마트월렛과 계정 추상화](/patterns/smart-wallet-and-account-abstraction)
+1. [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
+2. [신뢰 인프라의 진화: Bitcoin에서 RWA까지](/foundations/trust-infrastructure-evolution)
+3. [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
+4. [온체인, 오프체인, 앵커링, 하이브리드](/foundations/onchain-offchain-design-patterns)
+5. [신뢰 경계와 다층 검증 스택](/foundations/trust-boundaries-and-verification-stack)
+6. [하이브리드 아키텍처](/patterns/hybrid-architecture)
 7. [Security, Governance, Scalability](/operations/security-governance-and-scalability)
 8. [Enterprise Adoption Patterns](/operations/enterprise-adoption-patterns)
 

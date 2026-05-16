@@ -16,6 +16,6 @@ description: "세미나 발표 준비를 위한 로드맵과 메시지 구조를
 
 ## 선행 카테고리
 
-- [기초와 입문](/foundations/)
+- [Web3 개요와 신뢰 인프라](/foundations/)
 - [설계 패턴](/patterns/)
 - [운영과 거버넌스](/operations/)

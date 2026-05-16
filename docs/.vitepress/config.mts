@@ -72,7 +72,7 @@ export default withMermaid(
       logoLink: siteUrl,
       nav: [
         { text: '홈', link: '/' },
-        { text: '기초와 입문', link: '/foundations/' },
+        { text: 'Web3 개요와 신뢰 인프라', link: '/foundations/' },
         { text: '설계 패턴', link: '/patterns/' },
         { text: '운영과 거버넌스', link: '/operations/' },
         { text: 'Lab', link: '/lab/' },
@@ -80,13 +80,15 @@ export default withMermaid(
       ],
       sidebar: [
         {
-          text: '기초와 입문',
+          text: 'Web3 개요와 신뢰 인프라',
           items: [
             { text: '개요', link: '/foundations/' },
-            { text: 'Web3 개요와 철학', link: '/foundations/web3-overview' },
+            { text: 'Web3를 다시 정의하기: 탈중앙에서 검증가능성으로', link: '/foundations/web3-overview' },
+            { text: '신뢰 인프라의 진화: Bitcoin에서 RWA까지', link: '/foundations/trust-infrastructure-evolution' },
             { text: '계정, 상태, 트랜잭션, 확정성', link: '/foundations/accounts-state-transactions-and-finality' },
-            { text: '스마트컨트랙트와 정책 모델', link: '/foundations/smart-contracts-as-policy' },
-            { text: '온체인 vs 오프체인 설계 패턴', link: '/foundations/onchain-offchain-design-patterns' }
+            { text: '스마트컨트랙트는 정책 집행 계층이다', link: '/foundations/smart-contracts-as-policy' },
+            { text: '온체인, 오프체인, 앵커링, 하이브리드', link: '/foundations/onchain-offchain-design-patterns' },
+            { text: '신뢰 경계와 다층 검증 스택', link: '/foundations/trust-boundaries-and-verification-stack' }
           ]
         },
         {

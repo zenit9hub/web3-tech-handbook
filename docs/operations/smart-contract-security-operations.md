@@ -37,7 +37,7 @@ tags:
 ## 선행 개념
 
 - [Security, Governance, Scalability](/operations/security-governance-and-scalability)
-- [스마트컨트랙트와 정책 모델](/foundations/smart-contracts-as-policy)
+- [스마트컨트랙트는 정책 집행 계층이다](/foundations/smart-contracts-as-policy)
 
 ## 다음으로 읽을 문서
 

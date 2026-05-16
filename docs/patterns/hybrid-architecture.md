@@ -52,7 +52,7 @@ flowchart LR
 
 ## 선행 개념
 
-- [온체인 vs 오프체인 설계 패턴](/foundations/onchain-offchain-design-patterns)
+- [온체인, 오프체인, 앵커링, 하이브리드](/foundations/onchain-offchain-design-patterns)
 
 ## 다음으로 읽을 문서
 

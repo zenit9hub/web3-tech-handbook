@@ -75,7 +75,7 @@ Web3에서 보안은 다음 층위를 함께 본다.
 
 ## 선행 개념
 
-- [스마트컨트랙트와 정책 모델](/foundations/smart-contracts-as-policy)
+- [스마트컨트랙트는 정책 집행 계층이다](/foundations/smart-contracts-as-policy)
 - [멀티체인과 상호운용](/patterns/multichain-and-interoperability)
 
 ## 다음으로 읽을 문서

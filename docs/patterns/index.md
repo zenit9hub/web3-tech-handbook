@@ -20,7 +20,7 @@ description: "중급·고급 영역에서 반복적으로 재사용되는 Web3 �
 
 ## 선행 챕터
 
-- [기초와 입문](/foundations/)
+- [Web3 개요와 신뢰 인프라](/foundations/)
 
 ## 다음 카테고리
 
