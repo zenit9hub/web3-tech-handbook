@@ -13,7 +13,7 @@ tags:
 
 # 온체인, 오프체인, 앵커링, 하이브리드
 
-## 문서 목적
+## 핵심 관점
 
 Web3 설계의 핵심 질문은 `무엇을 온체인에 둘 것인가`보다 `무엇을 어떤 방식으로 검증 가능하게 만들 것인가`에 가깝다. 이 문서는 온체인, 오프체인, 앵커링, 하이브리드 패턴을 기준으로 신뢰 경계 설계 방법을 정리한다.
 
@@ -83,7 +83,7 @@ flowchart TD
 
 ## 선행 개념
 
-- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/)
+- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
 - [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
 
 ## 다음으로 읽을 문서
@@ -95,4 +95,4 @@ flowchart TD
 
 - [Enterprise Adoption Patterns](/operations/enterprise-adoption-patterns)
 - [자산, 정산, 권리 구조](/patterns/assets-settlement-and-rights)
-- [8단계 세미나 로드맵](/seminar/web3-upskilling-roadmap)
+- [학습 경로와 메시지](/reference/learning-paths)

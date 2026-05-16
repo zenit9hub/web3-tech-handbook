@@ -12,7 +12,7 @@ tags:
 
 # 스마트컨트랙트 보안 운영
 
-## 문서 목적
+## 핵심 관점
 
 취약점 예방, 탐지, 대응을 운영 루프로 내재화하는 방법을 정리한다.
 
@@ -42,4 +42,4 @@ tags:
 ## 관련 문서
 
 - [멀티체인과 상호운용](/patterns/multichain-and-interoperability)
-- [8단계 세미나 로드맵](/seminar/web3-upskilling-roadmap)
+- [학습 경로와 메시지](/reference/learning-paths)

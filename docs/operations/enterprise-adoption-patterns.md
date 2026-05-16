@@ -12,7 +12,7 @@ tags:
 
 # Enterprise Adoption Patterns
 
-## 문서 목적
+## 핵심 관점
 
 기업이 Web3를 도입할 때 완전한 온체인 전환보다 어떤 하이브리드 패턴을 선택하는지 정리한다.
 
@@ -41,7 +41,7 @@ tags:
 - 사용자 자산 또는 멤버십을 외부 시스템과 함께 써야 하는가
 - 규제 또는 통제 요구 때문에 온체인 범위를 제한해야 하는가
 
-## 운영 관점 메모
+## 운영 체크포인트
 
 - 기업 대상 설명에서는 `탈중앙화`보다 `공유 원장`, `검증 가능성`, `감사 추적`, `자산 프로그래머빌리티` 표현이 더 실무적으로 받아들여진다.
 - 서비스 전면을 Web3로 바꾸는 그림보다, 특정 단계만 온체인 또는 증명 계층으로 분리하는 패턴이 현실적이다.
@@ -55,9 +55,9 @@ tags:
 ## 다음으로 읽을 문서
 
 - [AI + Web3 Convergence](/lab/ai-and-web3-convergence)
-- [읽기 순서와 핵심 메시지](/seminar/reading-path-and-core-messages)
+- [학습 경로와 메시지](/reference/learning-paths)
 
 ## 관련 문서
 
-- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/)
+- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
 - [하이브리드 아키텍처](/patterns/hybrid-architecture)

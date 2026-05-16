@@ -12,7 +12,7 @@ tags:
 
 # 자산, 정산, 권리 구조
 
-## 문서 목적
+## 핵심 관점
 
 자산 표현과 정산, 권리 상태를 어떤 모델로 설계할지 정리한다.
 
@@ -63,5 +63,5 @@ tags:
 
 ## 관련 문서
 
-- [읽기 순서와 핵심 메시지](/seminar/reading-path-and-core-messages)
+- [학습 경로와 메시지](/reference/learning-paths)
 - [용어사전](/reference/glossary)

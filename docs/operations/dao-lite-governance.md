@@ -12,9 +12,9 @@ tags:
 
 # DAO-lite 거버넌스
 
-## 문서 목적
+## 핵심 관점
 
-세미나 8단계의 핵심인 `의사결정은 투명하게, 집행은 현실적으로`라는 원칙을 handbook 문서로 정리한다.
+`의사결정은 투명하게, 집행은 현실적으로`라는 원칙을 중심으로 DAO-lite 거버넌스 구조를 정리한다.
 
 ## 핵심 요약
 
@@ -47,9 +47,9 @@ flowchart LR
 ## 다음으로 읽을 문서
 
 - [Enterprise Adoption Patterns](/operations/enterprise-adoption-patterns)
-- [읽기 순서와 핵심 메시지](/seminar/reading-path-and-core-messages)
+- [학습 경로와 메시지](/reference/learning-paths)
 
 ## 관련 문서
 
 - [Security, Governance, Scalability](/operations/security-governance-and-scalability)
-- [8단계 세미나 로드맵](/seminar/web3-upskilling-roadmap)
+- [학습 경로와 메시지](/reference/learning-paths)

@@ -3,48 +3,42 @@ layout: home
 
 hero:
   name: Web3 Tech Handbook
-  text: 신뢰 인프라, 설계 패턴, 운영, 실험, 세미나 준비
+  text: 신뢰 인프라, 설계 패턴, 운영, 실험
   tagline: Web3를 검증 가능한 신뢰 인프라 관점에서 설명하고, 설계와 운영 판단까지 연결하는 공개형 기술 핸드북
   actions:
     - theme: brand
-      text: Web3 개요부터 시작하기
+      text: 신뢰 인프라의 진화 읽기
       link: /foundations/
     - theme: alt
       text: 설계 패턴 보기
       link: /patterns/
     - theme: alt
-      text: 세미나 로드맵 보기
-      link: /seminar/web3-upskilling-roadmap
+      text: 학습 경로 보기
+      link: /reference/learning-paths
 
 features:
-  - title: Web3 개요와 신뢰 인프라
+  - title: 지금 읽을 글
+    details: Bitcoin에서 RWA까지 이어진 신뢰 인프라의 변화를 따라가면, Web3가 왜 검증 가능성의 문제로 이동했는지 한 번에 잡힙니다.
+    link: /foundations/
+    linkText: 신뢰 인프라의 진화 읽기
+  - title: 신뢰 인프라
     details: 탈중앙이라는 구호보다 검증 가능성과 신뢰 경계 설계를 중심에 두고, 계정, 상태, 정책, 앵커링, 다층 검증 스택을 먼저 정리합니다.
+    link: /foundations/
+    linkText: 첫 챕터 보기
   - title: 설계 패턴
     details: 하이브리드 아키텍처, SSI/VC, 스마트월렛, 결제/정산, 멀티체인을 중급·고급 패턴으로 묶어 다룹니다.
+    link: /patterns/
+    linkText: 패턴 보기
   - title: 운영과 거버넌스
     details: 보안 운영, 거버넌스, 확장성, 엔터프라이즈 적용 판단을 하나의 운영 축으로 정리합니다.
+    link: /operations/
+    linkText: 운영 판단 보기
   - title: Lab
     details: 아직 실무 표준으로 고정되지 않은 실험적 주제를 느슨하게 축적합니다.
-  - title: 세미나
-    details: 로드맵, 읽기 순서, 발표 메시지와 같이 문서가 세미나 자산으로 재사용되는 지점을 별도 챕터로 분리합니다.
+    link: /lab/
+    linkText: 실험 주제 보기
+  - title: 레퍼런스
+    details: 학습 경로, 발표 메시지, 개념 정의를 한곳에 모아 핸드북 본문을 빠르게 다시 탐색할 수 있게 합니다.
+    link: /reference/
+    linkText: 레퍼런스 보기
 ---
-
-## 이 사이트에 대해
-
-이 사이트는 공개 가능한 일반화된 Web3 기술 지식을 체계적으로 설명하기 위한 문서 사이트다. 동시에 팀의 8단계 Web3 세미나 흐름을 handbook 구조에 느슨하게 반영해, 학습 문서와 세미나 자산이 서로 재사용될 수 있도록 설계한다.
-
-## 추천 학습 경로
-
-1. 먼저 `Web3 개요와 신뢰 인프라` 챕터에서 Web3를 어떤 프레임으로 읽어야 하는지와 경계 판단 기준을 읽는다.
-2. 다음으로 `설계 패턴` 챕터에서 SSI, 지갑 UX, 결제/정산, 멀티체인 구조를 읽는다.
-3. 이어서 `운영과 거버넌스` 챕터에서 보안 운영과 의사결정 구조를 읽는다.
-4. 실험적 주제는 `Lab`에서 확장한다.
-5. 발표 준비가 필요할 때는 `세미나` 챕터에서 로드맵과 핵심 메시지를 바로 가져간다.
-
-## 운영 원칙
-
-- 공개 가능한 일반화된 기술 지식만 다룬다.
-- 고객사, 내부 프로젝트, 실제 운영 endpoint와 credential은 포함하지 않는다.
-- 상위 챕터는 3~5개 수준의 느슨한 구조를 유지하고, 세부 주제는 문서 단위에서 확장한다.
-- 문서 경계는 관련 문서 연결로 처리하고, 배제형 비범위 선언은 사용하지 않는다.
-- private 원천 `docs/` 변경은 public mirror와 Cloudflare 배포를 통해 공개 사이트에 반영한다.

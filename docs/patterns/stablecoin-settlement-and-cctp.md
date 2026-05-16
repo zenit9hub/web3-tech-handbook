@@ -12,9 +12,9 @@ tags:
 
 # 스테이블코인 결제와 CCTP
 
-## 문서 목적
+## 핵심 관점
 
-세미나 5단계의 핵심인 결제 처리와 정산 기록 분리 설계를 handbook용으로 정리한다.
+결제 처리와 정산 기록 분리 설계를 서비스 구조 관점에서 정리한다.
 
 ## 핵심 요약
 
@@ -51,4 +51,4 @@ tags:
 ## 관련 문서
 
 - [Enterprise Adoption Patterns](/operations/enterprise-adoption-patterns)
-- [8단계 세미나 로드맵](/seminar/web3-upskilling-roadmap)
+- [학습 경로와 메시지](/reference/learning-paths)
