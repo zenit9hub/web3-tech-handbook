@@ -9,6 +9,6 @@ import { withBase } from 'vitepress'
     <span class="featured-article__summary">
       Web3가 결제 실험에서 검증 가능한 제도권 인프라로 이동한 흐름을 한 번에 잡습니다.
     </span>
-    <span class="featured-article__cta">읽기</span>
+    <span class="featured-article__cta">바로 읽기</span>
   </a>
 </template>
