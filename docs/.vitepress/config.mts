@@ -82,8 +82,7 @@ export default withMermaid(
         {
           text: 'Web3 개요와 신뢰 인프라',
           items: [
-            { text: '개요', link: '/foundations/' },
-            { text: 'Web3를 다시 정의하기: 탈중앙에서 검증가능성으로', link: '/foundations/web3-overview' },
+            { text: 'Web3를 다시 정의하기', link: '/foundations/' },
             { text: '신뢰 인프라의 진화: Bitcoin에서 RWA까지', link: '/foundations/trust-infrastructure-evolution' },
             { text: '계정, 상태, 트랜잭션, 확정성', link: '/foundations/accounts-state-transactions-and-finality' },
             { text: '스마트컨트랙트는 정책 집행 계층이다', link: '/foundations/smart-contracts-as-policy' },

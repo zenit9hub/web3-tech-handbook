@@ -25,7 +25,7 @@ tags:
 
 ## 권장 발표 흐름
 
-1. [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
+1. [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/)
 2. [신뢰 인프라의 진화: Bitcoin에서 RWA까지](/foundations/trust-infrastructure-evolution)
 3. [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
 4. [온체인, 오프체인, 앵커링, 하이브리드](/foundations/onchain-offchain-design-patterns)

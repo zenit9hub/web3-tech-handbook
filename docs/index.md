@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Web3 Tech Handbook
   text: 신뢰 인프라, 설계 패턴, 운영, 실험, 세미나 준비
-  tagline: 팀의 8단계 Web3 세미나 로드맵을 참고해 Web3를 검증 가능한 신뢰 인프라 관점에서 입문부터 실무 판단까지 이어지도록 재구성한 공개형 학습 핸드북
+  tagline: Web3를 검증 가능한 신뢰 인프라 관점에서 설명하고, 설계와 운영 판단까지 연결하는 공개형 기술 핸드북
   actions:
     - theme: brand
       text: Web3 개요부터 시작하기

@@ -59,5 +59,5 @@ tags:
 
 ## 관련 문서
 
-- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
+- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/)
 - [하이브리드 아키텍처](/patterns/hybrid-architecture)

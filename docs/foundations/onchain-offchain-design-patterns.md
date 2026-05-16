@@ -81,15 +81,9 @@ flowchart TD
 
 이 구조의 장점은 성능과 프라이버시를 포기하지 않으면서, 필요한 수준의 검증 가능성을 확보할 수 있다는 점이다.
 
-## 세미나 관점 메모
-
-- 이 문서는 기본기 세션의 산출물로 적합하다.
-- 팀 토론에서는 실제 기능 하나를 골라 Full on-chain, Anchoring, Hybrid 중 어느 구조가 맞는지 설명해 보는 방식이 유효하다.
-- 이 문서는 `하이브리드 아키텍처`, `Enterprise Adoption Patterns`, `신뢰 경계와 다층 검증 스택`의 선행 개념으로 쓰기 좋다.
-
 ## 선행 개념
 
-- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
+- [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/)
 - [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
 
 ## 다음으로 읽을 문서
