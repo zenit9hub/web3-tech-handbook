@@ -24,11 +24,12 @@ Web3는 코인이나 탈중앙화 구호만으로 설명하기 어렵다. 현재
 
 기본 구조를 빠르게 잡고 싶다면 아래 순서가 적합하다.
 
-1. [신뢰 인프라의 진화: Bitcoin에서 RWA까지](/foundations/)
-2. [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
-3. [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
-4. [온체인, 오프체인, 앵커링, 하이브리드](/foundations/onchain-offchain-design-patterns)
-5. [신뢰 경계와 다층 검증 스택](/foundations/trust-boundaries-and-verification-stack)
+1. [블록체인과 Web3 키워드 지도](/reference/blockchain-web3-map)
+2. [신뢰 인프라의 진화: Bitcoin에서 RWA까지](/foundations/)
+3. [Web3를 다시 정의하기: 탈중앙에서 검증가능성으로](/foundations/web3-overview)
+4. [계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)
+5. [온체인, 오프체인, 앵커링, 하이브리드](/foundations/onchain-offchain-design-patterns)
+6. [신뢰 경계와 다층 검증 스택](/foundations/trust-boundaries-and-verification-stack)
 
 ## 설계자 경로
 
@@ -67,6 +68,7 @@ AI, ZK, RWA처럼 아직 표준 패턴으로 고정되지 않은 영역은 Lab�
 
 |흐름|핵심 문장|연결 문서|
 |---|---|---|
+|지형 파악|블록체인은 공유 상태 검증 인프라이고, Web3는 권한·자산·신원·실행을 검증 가능하게 설계하는 방식이다|[블록체인과 Web3 키워드 지도](/reference/blockchain-web3-map)|
 |시장 진화|신뢰 문제는 결제에서 실행, 데이터, 제도권 자산 검증으로 확장됐다|[신뢰 인프라의 진화](/foundations/)|
 |문제 재정의|Web3는 탈중앙 기술이 아니라 검증 가능한 신뢰 인프라다|[Web3를 다시 정의하기](/foundations/web3-overview)|
 |시스템 구조|계정, 상태, 트랜잭션, 확정성은 신뢰를 구현하는 기본 단위다|[계정, 상태, 트랜잭션, 확정성](/foundations/accounts-state-transactions-and-finality)|

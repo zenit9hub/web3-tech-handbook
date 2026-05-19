@@ -145,6 +145,7 @@ export default withMermaid(
           text: '레퍼런스',
           items: [
             { text: '학습/발표 기준', link: '/reference/' },
+            { text: '블록체인과 Web3 키워드 지도', link: '/reference/blockchain-web3-map' },
             { text: '학습 경로와 메시지', link: '/reference/learning-paths' },
             { text: '개념 레퍼런스', link: '/reference/glossary' }
           ]
