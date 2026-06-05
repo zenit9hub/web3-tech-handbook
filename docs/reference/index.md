@@ -10,5 +10,6 @@ description: "학습 경로, 발표 메시지, 개념 정의를 빠르게 조회
 ## 읽을 문서
 
 1. [블록체인과 Web3 키워드 지도](/reference/blockchain-web3-map)
-2. [학습 경로와 메시지](/reference/learning-paths)
-3. [개념 레퍼런스](/reference/glossary)
+2. [Web3 입문 FAQ](/reference/web3-faq)
+3. [학습 경로와 메시지](/reference/learning-paths)
+4. [개념 레퍼런스](/reference/glossary)
